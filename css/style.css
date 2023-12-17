@@ -49,7 +49,6 @@ img {
   background-color: #ffffff;
   display: flex;
   justify-content: space-between;
-  border-bottom: 1px solid #e7e9fc;
 }
 .hero-navbar {
   display: flex;
@@ -59,12 +58,14 @@ img {
   display: flex;
   gap: 40px;
   justify-content: flex-start;
+  padding: 24px 0;
 }
 .hero-header {
   display: flex;
   justify-content: space-between;
   height: 72px;
   align-items: center;
+  border-bottom: 1px solid #e7e9fc;
 }
 .contact-list {
   display: flex;
@@ -132,12 +133,20 @@ img {
   font-style: normal;
 }
 
-.main-container {
+.first-section {
   display: flex;
   justify-content: center;
   flex-direction: column;
   align-items: center;
   padding: 188px 0;
+}
+
+.main-container {
+  display: flex;
+  justify-content: center;
+  /* flex-direction: column;
+  align-items: center; */
+  /* padding: 188px 0; */
 }
 .hero-image {
   background-color: #2e2f42;
@@ -153,7 +162,7 @@ img {
   text-align: center;
   color: #ffffff;
   line-height: 1.07;
-  width: 496px;
+  max-width: 496px;
   height: 120px;
 }
 
@@ -166,7 +175,7 @@ img {
   background-color: #4d5ae5;
   color: #ffffff;
   cursor: pointer;
-  width: 169px;
+  min-width: 169px;
   height: 56px;
   text-align: center;
   box-shadow: 0px 4px 4px 0px #00000026;
@@ -174,6 +183,7 @@ img {
   padding: 16px, 32px, 16px, 32px;
   gap: 10px;
   margin-top: 48px;
+  border: none;
 }
 
 .order-button:hover {
@@ -185,7 +195,7 @@ img {
 }
 
 .qualities {
-  margin: 120px 0;
+  padding: 120px 0;
 }
 
 .title-third {
@@ -195,6 +205,8 @@ img {
   letter-spacing: 0.02em;
   color: #2e2f42;
   background-color: #ffffffff;
+  margin-bottom: 8px;
+  text-align: center;
 }
 
 .paragraph {
@@ -233,11 +245,16 @@ img {
   margin-bottom: 72px;
 }
 .wawd-section {
-  margin: 120px 0;
+  padding-bottom: 120px 0;
 }
 .wawd-list {
   display: flex;
   gap: 24px;
+}
+
+.our-team {
+  padding: 120px 0;
+  background-color: #f4f4fd;
 }
 .our-team-list {
   display: flex;
@@ -300,14 +317,22 @@ img {
   color: #f4f4fd;
   max-width: 264px;
 }
-.team {
-  background-color: #f4f4fd;
-  margin: 120px 0;
-}
 
 .title-hidden {
   background-color: #ffffffff;
 }
 .white-background {
   background-color: #ffffffff;
+}
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
