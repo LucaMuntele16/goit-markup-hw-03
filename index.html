@@ -12,16 +12,18 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"/>
     <title>Document</title>
   </head>
   <body>
     <!-- Header -->
-    <div class="hero-container container">
+    
       <h2 hidden>titlu</h2>
       <header class="hero-header">
+        <div class="hero-container container">
         <!-- Nav -->
         <nav class="hero-navbar">
-          <a href="./index.html" class="logo first-logo-word link"
+          <a href="./index.html" class="logo first-logo-word-header link"
             >Web
             <span class="logo second-logo-word link">Studio</span>
           </a>
@@ -35,7 +37,7 @@
           </ul>
         </nav>
         <!-- Contacts -->
-        <address class="adresses-font">
+        <address class="adresses adresses-font">
           <ul class="contact-list">
             <li>
               <a href="mailto:info@devstudio.com" class="adresses link"
@@ -53,15 +55,16 @@
     </div>
     <main>
       <!-- Title -->
-      
-        <section class="hero-image main-container container">
-          
+        <section>
+          <div class="main-container container hero-image">
           <h1 class="title-first">Effective Solutions for Your Business</h1>
           <button type="button" class="order-button">Order Service</button>
+          </div>
         </section>
-      </div>
+      
       <!-- Qualities -->
-      <section class="container">
+      <section>
+      <div class="container">
         <h2 hidden>Titlu</h2>
         <ul class="qualities-list list">
           <li class="qualities-children">
@@ -93,12 +96,14 @@
             </p>
           </li>
         </ul>
-      </section>
+      </div>
+    </section>
 
       <!-- What are we doing -->
       <section>
+        <div class="container">
         <h2 class="title-second">What are we doing</h2>
-        <ul class="list">
+        <ul class="wawd-list list">
           <li>
             <img src="./images/wawd1.jpg" alt="Computer" width="360" />
           </li>
@@ -113,43 +118,57 @@
             <img src="./images/wawd3.jpg" alt="Phone Screen" width="360" />
           </li>
         </ul>
+      </div>
       </section>
 
       <!-- Team pictures -->
       <section class="team">
+        <div class="container">
         <h2 class="title-second">Our Team</h2>
-        <ul class="list">
-          <li class="list">
+        <ul class="our-team-list list">
+          <li class="our-team-item list">
+            
             <img
-              src="./images/Mark.jpg"
-              class="white-background"
-              alt="Mark"
-              width="264"
+            src="./images/Mark.jpg"
+            class="white-background"
+            alt="Mark"
+            width="264"
             />
+            <div class="our-team-photo-text">
             <h3 class="title-third center">Mark Guerrero</h3>
             <p class="paragraph center">Product Designer</p>
+            </div>
           </li>
-          <li class="list">
+          <li class="our-team-item list">
             <img src="./images/Tom.jpg" alt="Tom" width="264" />
+            <div class="our-team-photo-text">
             <h3 class="title-third center">Tom Ford</h3>
             <p class="paragraph center">Frontend Developer</p>
+          </div>
           </li>
-          <li class="list">
+          <li class="our-team-item list">
             <img src="./images/Camila.jpg" alt="Camila" width="264" />
+            <div class="our-team-photo-text">
             <h3 class="title-third center">Camila Garcia</h3>
             <p class="paragraph center">Marketing</p>
+          </div>
           </li>
-          <li class="list">
+          <li class="our-team-item list">
             <img src="./images/Daniel.jpg" alt="Daniel" width="264" />
+            <div class="our-team-photo-text">
             <h3 class="title-third center">Daniel Wilson</h3>
             <p class="paragraph center">UI Designer</p>
+          </div>
           </li>
         </ul>
+        </div>
       </section>
     </main>
     <!-- Footer -->
+    <div class="container">
     <footer class="footer">
-      <a href="./index.html" class="logo first-logo-word link"
+      <div class="footer-text">
+      <a href="./index.html" class="logo first-logo-word-footer link"
         >Web
         <span class="logo second-logo-word-white link">Studio</span>
       </a>
@@ -157,6 +176,8 @@
         Increase the flow of customers and sales for your business with digital
         marketing & growth solutions.
       </p>
+      </div>
     </footer>
+  </div>
   </body>
 </html>
