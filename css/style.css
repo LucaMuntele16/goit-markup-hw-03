@@ -28,6 +28,10 @@ body {
   color: #434455;
 }
 
+img {
+  display: block;
+}
+
 .link {
   text-decoration: none;
 }
@@ -41,13 +45,11 @@ body {
 }
 
 .hero-container {
-  width: 1200px;
   height: 72px;
-  border: 0px, 0px, 1px, 0px;
-  border-color: #e7e9fc;
   background-color: #ffffff;
   display: flex;
   justify-content: space-between;
+  border-bottom: 1px solid #e7e9fc;
 }
 .hero-navbar {
   display: flex;
@@ -87,8 +89,8 @@ body {
 }
 .first-logo-word-header {
   color: #4d5ae5;
-  padding-left: 156px;
-  padding-right: 76px;
+  margin-left: 156px;
+  margin-right: 76px;
 }
 .second-logo-word {
   color: #2e2f42;
@@ -135,6 +137,7 @@ body {
   justify-content: center;
   flex-direction: column;
   align-items: center;
+  padding: 188px 0;
 }
 .hero-image {
   background-color: #2e2f42;
@@ -170,6 +173,7 @@ body {
   border-radius: 4px;
   padding: 16px, 32px, 16px, 32px;
   gap: 10px;
+  margin-top: 48px;
 }
 
 .order-button:hover {
@@ -178,6 +182,10 @@ body {
 
 .order-button:focus {
   background-color: #404bbf;
+}
+
+.qualities {
+  margin: 120px 0;
 }
 
 .title-third {
@@ -224,7 +232,9 @@ body {
   text-transform: capitalize;
   margin-bottom: 72px;
 }
-
+.wawd-section {
+  margin: 120px 0;
+}
 .wawd-list {
   display: flex;
   gap: 24px;
@@ -292,6 +302,7 @@ body {
 }
 .team {
   background-color: #f4f4fd;
+  margin: 120px 0;
 }
 
 .title-hidden {
