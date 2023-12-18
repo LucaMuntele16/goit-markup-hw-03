@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"/>
     <link rel="stylesheet" href="./css/styles.css" />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -12,7 +13,6 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="./css/style.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"/>
     <title>Document</title>
   </head>
   <body>
@@ -29,11 +29,11 @@
           </a>
 
           <ul class="hero-navbar-list list">
-            <li><a href="./index.html" class="nav-links link">Studio </a></li>
-            <li>
+            <li class="hero-navbar-item"><a href="./index.html" class="nav-links link">Studio </a></li>
+            <li class="hero-navbar-item">
               <a href="./portfolio.html" class="nav-links link">Portfolio</a>
             </li>
-            <li><a href="" class="nav-links link">Contacts</a></li>
+            <li class="hero-navbar-item"><a href="" class="nav-links link">Contacts</a></li>
           </ul>
         </nav>
         <!-- Contacts -->
@@ -55,16 +55,16 @@
     </div>
     <main>
       <!-- Title -->
-      <div class="main-container container hero-image">
-        <section class="first-section">
+      <section class="first-section">
+          <div class="main-container container hero-image">
           <h1 class="title-first">Effective Solutions for Your Business</h1>
           <button type="button" class="order-button">Order Service</button>
+        </div>
         </section>
-          </div>
       
       <!-- Qualities -->
+      <section class="qualities">
       <div class="container">
-        <section class="qualities">
         <h2 class="visually-hidden">Titlu</h2>
         <ul class="qualities-list list">
           <li class="qualities-children">
@@ -96,8 +96,8 @@
             </p>
           </li>
         </ul>
-      </section>
       </div>
+    </section>
 
       <!-- What are we doing -->
       <section class="wawd-section">
@@ -165,9 +165,9 @@
       </section>
     </main>
     <!-- Footer -->
-    <div class="container">
+    <!-- <div class="container"> -->
     <footer class="footer">
-      <div class="footer-text">
+      <div class="container footer-text">
       <a href="./index.html" class="logo first-logo-word-footer link"
         >Web
         <span class="logo second-logo-word-white link">Studio</span>
