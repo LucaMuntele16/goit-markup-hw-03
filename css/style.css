@@ -342,3 +342,39 @@ img {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
+
+/* Portfolio CSS */
+.filters-list {
+  display: flex;
+  gap: 24px;
+  padding-top: 96px;
+  padding-bottom: 72px;
+}
+
+.filters-container {
+  display: flex;
+  justify-content: center;
+}
+
+.card-item-list {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 24px;
+  row-gap: 48px;
+  padding-bottom: 120px;
+}
+.card-item {
+  width: calc((100%-48px) / 3);
+}
+
+.app-desc {
+  padding: 32px 16px;
+  border: 1px solid;
+  color: #e7e9fc;
+  border-top: none;
+}
+
+.portfolio-header {
+  text-align: left;
+  margin-bottom: 8px;
+}

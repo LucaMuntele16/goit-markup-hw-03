@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"/>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
@@ -14,145 +15,173 @@
     <title>Document</title>
   </head>
   <body>
-    <!-- Header -->
-    <header>
-      <!-- Nav -->
-      <nav>
-        <a href="./index.html" class="logo first-logo-word link"
-          >Web
-          <span class="logo second-logo-word link">Studio</span>
-        </a>
-        <ul class="list">
-          <li><a href="./index.html" class="nav-links link">Studio </a></li>
-          <li>
-            <a href="./portfolio.html" class="nav-links link">Portfolio</a>
-          </li>
-          <li><a href="" class="nav-links link">Contacts</a></li>
-        </ul>
-      </nav>
-      <!-- Contacts -->
+     <!-- Header -->
+    
+     <h2 hidden>titlu</h2>
+     <header class="hero-header">
+       <div class="hero-container container">
+       <!-- Nav -->
+       <nav class="hero-navbar">
+         <a href="./index.html" class="logo first-logo-word-header link"
+           >Web
+           <span class="logo second-logo-word link">Studio</span>
+         </a>
 
-      <address class="adresses-font">
-        <ul class="list">
-          <li>
-            <a href="mailto:info@devstudio.com" class="adresses link"
-              >info@devstudio.com</a
-            >
-          </li>
-          <li>
-            <a href="tel:+110001111111" class="adresses link"
-              >+11 (000) 111-11-11</a
-            >
-          </li>
-        </ul>
-      </address>
-    </header>
+         <ul class="hero-navbar-list list">
+           <li class="hero-navbar-item"><a href="./index.html" class="nav-links link">Studio </a></li>
+           <li class="hero-navbar-item">
+             <a href="./portfolio.html" class="nav-links link">Portfolio</a>
+           </li>
+           <li class="hero-navbar-item"><a href="" class="nav-links link">Contacts</a></li>
+         </ul>
+       </nav>
+       <!-- Contacts -->
+       <address class="adresses adresses-font">
+         <ul class="contact-list">
+           <li class="al">
+             <a href="mailto:info@devstudio.com" class="adresses link"
+               >info@devstudio.com</a
+             >
+           </li>
+           <li>
+             <a href="tel:+110001111111" class="adresses link"
+               >+11 (000) 111-11-11</a
+             >
+           </li>
+         </ul>
+       </address>
+     </header>
+   </div>
     <!-- Hero section -->
     <main>
       <!-- Filters -->
       <section>
+        <div class="filters-container container">
         <h1 hidden>Titlu</h1>
-        <ul class="list">
+        <ul class="filters-list list">
           <li><button type="button" class="filter">All</button></li>
           <li><button type="button" class="filter">Web Site</button></li>
           <li><button type="button" class="filter">App</button></li>
           <li><button type="button" class="filter">Design</button></li>
           <li><button type="button" class="filter">Marketing</button></li>
         </ul>
-
+      </div>
         <!-- Photo cards -->
-        <ul class="list">
-          <li class="list">
+        <div class="container">
+        <ul class="card-item-list list">
+          <li class="card-item list">
+            
             <a href="" class="link">
               <img
                 src="./images/Portfolio1.jpg"
                 alt="App Interface"
                 width="360"
               />
-              <h2 class="title-third">Banking App Interface Concept</h2>
-              <p class="paragraph center">App</p>
+              <div class="app-desc">
+              <h2 class="title-third portfolio-header">Banking App Interface Concept</h2>
+              <p class="paragraph">App</p>
+            </div>
             </a>
           </li>
-          <li class="list">
+          
+          <li class="card-item list">
             <a href="" class="link">
               <img
                 src="./images/Portfolio2.jpg"
                 alt="Phone Payment"
                 width="360"
               />
-              <h2 class="title-third">Cashless Payment</h2>
-              <p class="paragraph center">Marketing</p>
+              <div class="app-desc">
+                <h2 class="title-third portfolio-header">Cashless Payment</h2>
+                <p class="paragraph">Marketing</p>
+              </div>
             </a>
           </li>
-          <li class="list">
+          <li class="card-item list">
             <a href="" class="link">
               <img
                 src="./images/Portfolio3.jpg"
                 alt="App on laptop"
                 width="360"
               />
-              <h2 class="title-third">Meditation App</h2>
-              <p class="paragraph center">App</p>
+              <div class="app-desc">
+              <h2 class="title-third portfolio-header">Meditation App</h2>
+              <p class="paragraph">App</p>
+            </div>
             </a>
           </li>
 
-          <li class="list">
+          <li class="card-item list">
             <a href="" class="link">
               <img src="./images/Portfolio4.jpg" alt="Car Wheel" width="360" />
-              <h2 class="title-third">Taxi Service</h2>
-              <p class="paragraph center">Marketing</p>
+              <div class="app-desc">
+              <h2 class="title-third portfolio-header">Taxi Service</h2>
+              <p class="paragraph">Marketing</p>
+            </div>
             </a>
           </li>
-          <li class="list">
+          <li class="card-item list">
             <a href="" class="link">
               <img
                 src="./images/Portfolio5.jpg"
                 alt="Phone Screen"
                 width="360"
               />
-              <h2 class="title-third">Screen Illustrations</h2>
-              <p class="paragraph center">Design</p>
+              <div class="app-desc">
+              <h2 class="title-third portfolio-header">Screen Illustrations</h2>
+              <p class="paragraph">Design</p>
+            </div>
             </a>
           </li>
-          <li class="list">
+          <li class="card-item list">
             <a href="" class="link">
               <img src="./images/Portfolio6.jpg" alt="Woman" width="360" />
-              <h2 class="title-third">Online Courses</h2>
-              <p class="paragraph center">Marketing</p>
+              <div class="app-desc">
+              <h2 class="title-third portfolio-header">Online Courses</h2>
+              <p class="paragraph">Marketing</p>
+            </div>
             </a>
           </li>
 
-          <li class="list">
+          <li class="card-item list">
             <a href="" class="link">
               <img
                 src="./images/Portfolio7.jpg"
                 alt="Instagram Stories"
                 width="360"
               />
-              <h2 class="title-third">Instagram Stories Concept</h2>
-              <p class="paragraph center">Design</p>
+              <div class="app-desc">
+              <h2 class="title-third portfolio-header">Instagram Stories Concept</h2>
+              <p class="paragraph">Design</p>
+            </div>
             </a>
           </li>
-          <li class="list">
+          <li class="card-item list">
             <a href="" class="link">
               <img src="./images/Portfolio8.jpg" alt="Groceries" width="360" />
-              <h2 class="title-third">Organic Food</h2>
-              <p class="paragraph center">Web Site</p>
+              <div class="app-desc">
+              <h2 class="title-third portfolio-header">Organic Food</h2>
+              <p class="paragraph">Web Site</p>
+            </div>
             </a>
           </li>
-          <li class="list">
+          <li class="card-item list">
             <a href="" class="link">
               <img src="./images/Portfolio9.jpg" alt="Coffee" width="360" />
-              <h2 class="title-third">Fresh Coffee</h2>
-              <p class="paragraph center">Web Site</p>
+              <div class="app-desc">
+              <h2 class="title-third portfolio-header">Fresh Coffee</h2>
+              <p class="paragraph">Web Site</p>
+            </div>
             </a>
           </li>
         </ul>
+      </div>
       </section>
     </main>
 
     <!-- Footer -->
     <footer class="footer">
+      <div class="container">
       <a href="./index.html" class="logo first-logo-word link"
         >Web
         <span class="logo second-logo-word-white link">Studio</span>
@@ -161,6 +190,7 @@
         Increase the flow of customers and sales for your business with digital
         marketing & growth solutions.
       </p>
+    </div>
     </footer>
   </body>
 </html>
